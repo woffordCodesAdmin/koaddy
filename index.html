@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="height:1300vh">
+    <div class="nav">
+      <img
+        src="https://kosportsbar.com/wp-content/uploads/2019/09/knock-out-sports-bar-logo.png"
+        alt=""
+        class="logo"
+      />
+
+      <div class="nav-tab">Reservations</div>
+      <div class="nav-tab">Contact</div>
+      <div class="nav-tab">About</div>
+      <div class="nav-box">
+        <div class="cartNum">0</div>
+      </div>
+    </div>
+    <div class="sports-ticker">
+      <span style="color: lightblue">Upcoming Games: </span> MIL v. CHI [NBA]
+      7CST
+    </div>
+  <!-- --------------------CAROOO -->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://kosportsbar.com/wp-content/uploads/2019/12/bottom-paralax2-2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://kosportsbar.com/wp-content/uploads/2021/03/WINGS01.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://kosportsbar.com/wp-content/uploads/2019/12/ksob-slide4.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+    <div class="optionContainer">
+        <button
+        class=" btn btn-dark menuMaker"
+        style="width:40%;"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight"
+      >
+        View Menu
+      </button>
+  
+  
+  
+      <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Existing Member? Sign-In Below</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <!-- Sign In -->
+                <img src="https://i.pinimg.com/originals/6b/25/7f/6b257f215fd12a4f6a7d10c1847435eb.gif" alt="" class="tender">
+            <div class="login">
+                <form action="POST" class="su">
+                    <input type="text" class="lg" placeholder="Email Address">
+                    <input type="text" class="lg" placeholder="Password">
+                    <input type="submit" class="lg" value="submit">
+                </form>
+            </div>
+            
+        </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Not Registered? Sign-Up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Not A Member? Sign Up Below</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="signUp">
+        <form action="POST" class="su">
+            <input type="text" class="su" placeholder="Name">
+            <input type="text" class="su" placeholder="Email">
+            <input type="text" class="su" placeholder="Company">
+            <input type="text" class="su" placeholder="Phone">
+            <input type="submit" class="su" value="submit">
+
+        </form>
+    </div>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to Member Login</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-dark" style="width:50%;"data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Customer Rewards Sign In</button>
+  
+      <div
+        class="offcanvas offcanvas-end bg-dark"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div class="offcanvas-header">
+          <img
+            src="https://kosportsbar.com/wp-content/uploads/2019/09/knock-out-sports-bar-logo.png"
+            alt=""
+            class="logoInner"
+          />
+          <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+  
+        <div class="offcanvas-body">
+          <img
+            src="https://kosportsbar.com/wp-content/uploads/2019/10/about.jpg"
+            alt=""
+            class="thotty"
+          />
+  
+  
+  
+  <!--  -->
+  
+  
+  <!--  -->
+          <div class="specialContainer">
+            <div class="spOne">Daily Specials</div>
+            <div class="spOne">Happy Hour</div>
+            <div class="spOne">Corporate Lunch Specials</div>
+          </div>
+          <div class="hiddenScrn"></div>
+          <h1 class="topMenuTitle">Full Menu</h1>
+          <h3 class="menu-title" onclick="shareToScreen(menuItems.mainevent.information)">Main Event</h3>
+          <h3 class="menu-title" onclick="shareToScreen(menuItems.pizza.information)">Pizza</h3>
+          <h3 class="menu-title" onclick="shareToScreen(menuItems.burgers.information)">Burgers</h3>
+          <h3 class="menu-title" onclick="shareToScreen(menuItems.salads.information)">Salads</h3>
+          <h3 class="menu-title" onclick="shareToScreen(menuItems.sandwiches.information)">Sandwiches</h3>
+          <h3 class="menu-title" onclick="shareToScreen(menuItems.dessert.information)">Desserts</h3>
+        </div>
+      </div>
+
+    </div>
+   
+
+    <img
+      src="https://kosportsbar.com/wp-content/uploads/2022/10/mealcomb.jpg"
+      alt=""
+      class="combo"
+    />
+<p class="ntice">Only 60 Mins for Lunch Break? Sign In for Quick Order Purchasing  </p>
+
+
+<img
+src="https://kosportsbar.com/wp-content/uploads/2019/09/KOGirls-1.jpg"
+alt=""
+class="girls"
+/>
+<h1 class="midTitle">Award-Winning Reputation and Service</h1>
+<div class="awardContainer">
+    <img src="https://kosportsbar.com/wp-content/uploads/2019/10/award.png" alt="" class="plaq">
+
+    <div class="texter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id modi atque accusamus necessitatibus natus magni excepturi nam autem sapiente suscipit, obcaecati voluptatibus, facilis animi, aperiam cum.</div>
+
+    <img src="https://kosportsbar.com/wp-content/uploads/2019/10/award.png" alt="" class="plaq">
+</div>
+
+<!-- <div class="authContainer"> -->
+    <!-- <div class="login">
+        <form action="POST" class="su">
+            <input type="text" class="lg" placeholder="Email Address">
+            <input type="text" class="lg" placeholder="Password">
+            <input type="submit" class="lg" value="submit">
+        </form>
+    </div> -->
+
+    
+
+    <!-- <div class="signUp">
+        <form action="POST" class="su">
+            <input type="text" class="su" placeholder="Name">
+            <input type="text" class="su" placeholder="Email">
+            <input type="text" class="su" placeholder="Company">
+            <input type="text" class="su" placeholder="Phone">
+            <div class="input-group-text">
+                <input class="form-check-input mt-0" type="checkbox" value="" aria-label="  Checkbox for following text input" placeholder="test">
+                Check Box For Loyal Rewards Benefits and Offers
+              </div>
+            <input type="submit" class="su" value="submit">
+
+        </form>
+    </div> -->
+
+</div>
+    <script src="app.js" async defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

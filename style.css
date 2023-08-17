@@ -1,0 +1,185 @@
+
+@keyframes ticker {
+    from {
+      transform: translateX(110%);
+    }
+  
+    to {
+      transform: translateX(-40%);
+    }
+  }
+
+@media only screen and (max-width: 1500px) {
+    body {
+      background-color: lightblue;
+      font-family:serif;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    body {
+      background-color: blue;
+      font-family:serif;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: black;
+      font-family:serif;
+    }
+  }
+
+  .nav{
+    /* border:solid white; */
+    border-width:.2px;
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+  }
+  .nav-tab{
+    /* border:solid white; */
+    padding-top:18px;
+    color:white;
+  }
+  .logo{
+    height:60px;
+  }
+  .nav-box{
+    width:10%;
+  }
+  .cartNum{
+    border:solid white;
+    height:20px;
+    width:20px;
+    color:lime;
+    font-size:11px;
+    border-radius:50%;
+    text-align:center;
+
+  }
+  .cart{
+    height:20px;
+
+  }
+  .girls{
+    width:100%;
+  }
+.offcanvas-body{
+    color:white;
+}
+.spOne{
+    text-align:center;
+    padding-left:12px;
+    padding-right:12px;
+    border:solid white;
+    margin:1em;
+    border-radius:22px;
+}
+.spOne:hover{
+    text-align:center;
+    padding-left:12px;
+    background-color:blue;
+    padding-right:12px;
+    border:solid red;
+    margin:1em;
+    border-radius:22px;
+}
+.specialContainer{
+    display:flex;
+    flex-wrap:wrap;
+}
+.topMenuTitle{
+    text-align:right;
+    color:white;
+    margin:1em;
+}
+.thotty{
+    width:100%;
+    border:solid red;
+    border-width:.2px;
+}
+.menu-title{
+    font-size:16px;
+}
+.menu-title:hover{
+    border:solid red;
+    text-align:center;
+    background-color:blue;
+    border-radius:22px;
+    font-size:22px;
+}
+.combo{
+    width:100%;
+}
+.sports-ticker{
+    color:grey;
+    font-size:12px;
+    animation: ticker 12s ease-in-out infinite;
+}
+.ntice{
+    color:white;
+    text-align:center;
+}
+.authContainer{
+    /* border:solid green; */
+    display:flex;
+    justify-content: space-evenly;
+}
+input{
+    background-color:#333C3F;
+    text-align:center;
+    border-radius:12px;
+    height:25px;
+    /* border:solid white; */
+    color:lemonchiffon;
+    
+}
+.newImg{
+
+}
+.menuMaker{
+   
+    
+}
+.optionContainer{
+    /* border:solid lime; */
+    display:flex;
+    justify-content: space-around;
+}
+.showTxt{
+    border:solid blue;
+    color:red;
+    text-align:center;
+}
+.modal-content{
+    background-color:#333C3F;
+    color:white;
+}
+.girly{
+    width:100%;
+}
+.carousel-item{
+    margin-bottom:1em;
+    border:solid red;
+    border-width:.2px;
+}
+.tender{
+    width:40%;
+}
+.awardContainer{
+    border:solid red;
+    border-width:.2px;
+    
+    text-align:center;
+    margin:1em;
+    display:flex;
+    justify-content: space-evenly;
+}
+.texter{
+    color:white;
+
+}
+.midTitle{
+    color:red;
+    margin:1em;
+    text-align:center;
+}
