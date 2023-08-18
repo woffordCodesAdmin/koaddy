@@ -8,6 +8,7 @@
       transform: translateX(-40%);
     }
   }
+  
 
 @media only screen and (max-width: 1500px) {
     body {
@@ -61,6 +62,7 @@
 
   }
   .girls{
+    margin-top:5em;
     width:100%;
   }
 .offcanvas-body{
@@ -68,24 +70,25 @@
 }
 .spOne{
     text-align:center;
-    padding-left:12px;
-    padding-right:12px;
+    padding-left:6px;
+    padding-right:6px;
     border:solid white;
-    margin:1em;
+    margin:.5em;
     border-radius:22px;
 }
 .spOne:hover{
     text-align:center;
-    padding-left:12px;
+    padding-left:6px;
     background-color:blue;
-    padding-right:12px;
+    padding-right:6px;
     border:solid red;
-    margin:1em;
+    margin:.5em;
     border-radius:22px;
 }
 .specialContainer{
     display:flex;
     flex-wrap:wrap;
+    
 }
 .topMenuTitle{
     text-align:right;
@@ -223,6 +226,7 @@ input{
 }
 .etitle{
   color:white;
+  margin-top:4em;
   text-align: center;
 }
 .lg,.su{
@@ -234,4 +238,86 @@ input{
 .fightNight{
   width:100%;
   margin-top:1em;
+}
+.gameCorner{
+  border:solid white;
+  margin-top:8em;
+  height:65vh;
+}
+.cup{
+  height:82px;
+  transform: rotate(180deg);
+  animation:shuffle 5s ease-in infinite;
+}
+.cupContainer{
+  display:flex;
+
+}
+.submit{
+  border-radius:22px;
+  color:white;
+  background-color:cadetblue;
+  width:100%;
+}
+.profileContainer{
+  /* border:solid grey; */
+  margin:1em;
+  padding:1em;
+  margin-bottom:4em;
+  height:65vh;
+}
+.corpTitle{
+  text-align:center;
+  margin:2em;
+  font-size:22px;
+}
+.btend{
+  width:100%;
+}
+.starbox{
+  display:flex;
+  margin:1em;
+  justify-content: space-around;
+}
+.str{
+  height:30px;
+}
+.liner{
+  margin:8px;
+}
+.list-group-item{
+  background-color:#333C3F;
+  color:lemonchiffon;
+}
+.leader{
+  margin-top:4em;
+}
+.dealPic{
+  width:100%;
+  border-radius:22px;
+}
+.deal{
+  /* border:solid blue; */
+  margin-bottom:4em;
+  border-radius:22px;
+}
+.deal:hover{
+  /* border:solid blue; */
+  margin-bottom:4em;
+  border-radius:22px;
+  background-color:lime;
+}
+.dealPark{
+  display:flex;
+  justify-content: space-evenly;
+  margin:15px;
+}
+.dealBtn{
+  border:solid lime;
+  background-color:black;
+  color:white;
+  border-radius:22px;
+}
+.dealContainer{
+  padding:2em;
 }
