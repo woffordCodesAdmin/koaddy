@@ -297,7 +297,7 @@ input{
   border-radius:22px;
 }
 .deal{
-  /* border:solid blue; */
+  border:solid grey;
   margin-bottom:4em;
   border-radius:22px;
 }
@@ -310,7 +310,7 @@ input{
 }
 .dealPark{
   display:flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin:15px;
 }
 .dealBtn{
