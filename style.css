@@ -176,10 +176,57 @@ input{
 }
 .texter{
     color:white;
+  padding:1em;
 
 }
 .midTitle{
-    color:red;
+    color:white;
     margin:1em;
     text-align:center;
+}
+.theater{
+  /* border:solid red; */
+  padding:1em;
+  /* display: flex; */
+  border-width:.2px;
+  justify-content: space-between;
+}
+.screen{
+  /* border:solid grey; */
+  
+  
+  height:100%;
+  width:100%;
+  border:solid white;
+  border-radius:22px;
+  border-width:.2px;
+}
+.btnHolster{
+  border:solid blue;
+  text-align: right;
+  margin:1em;
+  /* width:30%; */
+  display: flex;
+  justify-content: space-around;
+}
+.btnE{
+  /* border:solid grey; */
+  
+  color:white;
+}
+.btnE:hover{
+  /* border:solid grey; */
+  border:solid blue;
+  border-width:.2px;
+  color:red;
+}
+.tmedia{
+  width:100%;
+  border:solid white;
+  border-radius:22px;
+  border-width:.2px;
+}
+.etitle{
+  color:white;
+  text-align: center;
 }
