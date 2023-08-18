@@ -305,7 +305,8 @@ input{
   /* border:solid blue; */
   margin-bottom:4em;
   border-radius:22px;
-  background-color:lime;
+  background-color:blue;
+  color:lemonchiffon;
 }
 .dealPark{
   display:flex;
@@ -315,6 +316,7 @@ input{
 .dealBtn{
   border:solid lime;
   background-color:black;
+  font-size:12px;
   color:white;
   border-radius:22px;
 }
