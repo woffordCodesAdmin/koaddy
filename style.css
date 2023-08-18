@@ -108,7 +108,8 @@
     font-size:22px;
 }
 .combo{
-    width:100%;
+    width:98%;
+    margin:2em;
 }
 .sports-ticker{
     color:grey;
@@ -133,12 +134,8 @@ input{
     color:lemonchiffon;
     
 }
-.newImg{
-
-}
-.menuMaker{
-   
-    
+.logoInner{
+  width:50%;
 }
 .optionContainer{
     /* border:solid lime; */
@@ -163,7 +160,7 @@ input{
     border-width:.2px;
 }
 .tender{
-    width:40%;
+    width:100%;
 }
 .awardContainer{
     border:solid red;
@@ -193,8 +190,6 @@ input{
 }
 .screen{
   /* border:solid grey; */
-  
-  
   height:100%;
   width:100%;
   border:solid white;
@@ -229,4 +224,14 @@ input{
 .etitle{
   color:white;
   text-align: center;
+}
+.lg,.su{
+  border:solid white;
+  width:90%;
+  margin:1em;
+  border-width:.2px;
+}
+.fightNight{
+  width:100%;
+  margin-top:1em;
 }
