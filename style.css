@@ -1,11 +1,11 @@
 
 @keyframes ticker {
     from {
-      transform: translateX(110%);
+      transform: translateX(100vw);
     }
   
     to {
-      transform: translateX(-40%);
+      transform: translateX(0vw);
     }
   }
   
